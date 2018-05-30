@@ -26,10 +26,6 @@ $( document ).ready(function() {
 
     chromata.start();
 
-  } else {
-
-
-
-  }
+  } 
 
 });
