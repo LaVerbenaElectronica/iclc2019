@@ -64,6 +64,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
+              <img class="logo" src="img/ICLC-LOGO-TRANSPARENTE.png">
               <h1 class="brand-heading">ICLC 2019</h1>
               <p class="intro-text">International Conference on Live Coding. <br />From 16th to 18th of January 2019, Medialab Prado, Madrid.</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
@@ -72,6 +73,10 @@
             </div>
           </div>
         </div>
+      </div>
+      <!-- imagen efectos -->
+      <div style="width: 100%;">
+        <img class="img_effect fade-in" src="img/1211-nl-serreria-044.jpg">
       </div>
     </header>
 
@@ -89,7 +94,7 @@
               Also diversity inclusion and respect has always been considered a fundamental part of the thinking around this practice in live coding communities.
               For more information on live coding, please refer to the <a href="https://toplap.org/">TOPLAP</a> website and to previous
               <a href="http://iclc.livecodenetwork.org/">editions of these conferences</a>.</p>
-              <p>The fourth International Conference on Live Coding (ICLC) will take place between the 14th and 20th of January 2019 and will be hosted by
+              <p>The fourth International Conference on Live Coding (ICLC) will take place between the 16th and 18th of January 2019 and will be hosted by
               <a href="https://www.medialab-prado.es/">Medialab-Prado</a> and other neighbouring institutions and cultural agents of Madrid.
               The conference  will consist of presentations, performances, concerts, workshops and other activities grounded in the field of live coding with the aim
               of exploring the richness and diversity of the practice driven by the creative power of its international community which include
@@ -110,15 +115,15 @@
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="download-section content-section text-center">
+    <section id="download" class="where-section content-section text-center">
       <div class="container">
         <div class="row">
-        <div class="col-lg-8 mx-auto iclc-justify">
+        <div class="col-lg-8 mx-auto iclc-justify iclc-black">
           <h2>Place</h2>
           <p>"<a href="https://www.youtube.com/watch?v=6WfG7CVFKiQ&t=94s">Madrid is fun</a>”... said our ex-mayor in her attempt to host the olympic games for 2020. Indeed! Madrid offers
             great places to relax, enjoy traditional gastronomy and party as well as being a unique space for culture, sharing and collaborative learning.</p>
-          <p>The airport Adolfo Suárez-Madrid Barajas (MAD) is the main gateway to the city. It has 3 active Terminals: T1, T2 and T4 (with a small satellite T4s).
-            Depending on what Terminal visitors arrives to/leaves from, there are several options to get from/to the airport to/from the city</p>
+          <p>The airport Adolfo Suárez-Madrid Barajas (MAD) is the main gateway to the city. It has three active Terminals: T1, T2 and T4 (with a small satellite T4s).
+            Depending on what Terminal visitors arrives to/leaves from, there are several options to get from/to the airport to/from the city:</p>
           <ul>
             <li>Taxi service reaches every Terminal and costs between 20€ to 30€ according to the <a href="http://www.aeropuertomadrid-barajas.com/transportation/madrid-airport-bytaxi.htm">information published on the airport</a>.</li>
             <li><a href="https://www.esmadrid.com/en/airport-express?utm_referrer=https%3A%2F%2Fwww.google.es%2F">Bus (Airport Express)</a>. This service works 24/7. It takes 40 minutes
@@ -185,10 +190,10 @@
     </section>
 
     <!-- About Codigo de conducta -->
-    <section id="conducta" class="download-section content-section text-center">
+    <section id="conducta" class="codigo-section content-section text-center">
       <div class="container">
         <div class="row">
-        <div class="col-lg-8 mx-auto iclc-justify">
+        <div class="col-lg-8 mx-auto iclc-justify iclc-black">
            <h2>Code of Conduct</h2>
             <p>With the aim of promoting a safe, inclusive and open space at ICLC 2019, the organizing team propose a code of conduct in continuity with the prior conferences on live coding. We invite everyone attending the conference and the communities around it to work for a respectful and positive environment. As organizers we work hard to preserve the warm and open atmosphere that characterize pasts live coding conferences.</p>
             <p>As participants, please be mindful of the effect your words and actions may have on others and that your boundaries may not be the same as the boundaries of others for either cultural, education or personal reasons. If you act or speak in a way that someone finds inappropriate, it’s inappropriate to that time, place and/or person. If somebody tells you that you are making them uncomfortable, please stop doing so.</p>
@@ -234,7 +239,7 @@
       </div>
     </section>
 
-    <!-- Map Section -->
+    <!--
     <div id="map">
       <script>
       function initMap() {
@@ -249,7 +254,7 @@
         });
       }
     </script>
-    </div>
+    </div>Map Section -->
 
     <!-- Footer -->
     <footer>
@@ -265,10 +270,17 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCagSypk8jO4h1Wa8EcrgParj4nk8rjK8&q=Medialab+Prado+Madrid&sensor=false"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj40QSRbKRYiFLvBBPhtXivIbGFFihf9w&callback=initMap">
+    </script>
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+
+    <!-- CHROMATA PARA EFECTOS IMAGENES -->
+    <script src="js/chromata.min.js"></script>
+
+    <script src="js/imgeffect.js"></script>
 
   </body>
 
